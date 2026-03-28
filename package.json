@@ -1,0 +1,27 @@
+{
+  "name": "chatify_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend &&npm install --prefix frontend &&npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NituKumari82/Chatify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NituKumari82/Chatify/issues"
+  },
+  "homepage": "https://github.com/NituKumari82/Chatify#readme",
+  "dependencies": {
+    "resend": "^6.0.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.3"
+  }
+}
